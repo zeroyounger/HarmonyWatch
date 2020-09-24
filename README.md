@@ -6,3 +6,7 @@
 使用时本地新建 Lite Wearable项目，选择Empty Feature Ability
 
 将项目的src文件夹替换为本git仓的src，编译运行即可
+
+效果如下：
+
+![preview.png](https://i.loli.net/2020/09/25/CbhzxfoF2g9tsTZ.png)
