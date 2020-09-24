@@ -1,0 +1,11 @@
+<div class="container">
+    <!--    这里的action和percent 中间有个空格，用于减少闪的负面效果-->
+    <image src="../image/hm.png" class="img"
+            style="animation-duration:{{duration}};animation-iteration-count:{{count}}"/>
+    <text class="action" show="{{actionIsShow}}">{{action}} ({{percent}}%)
+    </text>
+    <text class="txt" show="{{txtIsShow}}">
+        再坚持{{seconds}}秒
+    </text>
+    <input type="button" class="btn" value="点击重新开始" onclick="clickAction"></input>
+</div>

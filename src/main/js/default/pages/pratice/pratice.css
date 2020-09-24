@@ -1,0 +1,43 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+}
+.txt {
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    border-color: #000000;
+    font-size: 38px;
+    margin-top: 20px;
+}
+.action {
+    font-size: 38px;
+    text-align: center;
+    width: 454px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.img {
+    width: 208px;
+    height: 208px;
+    margin-bottom: 10px;
+    animation-name: aniname;
+}
+@keyframes aniname {
+    from {
+        transform: rotate(0deg);/*从0度开始旋转*/
+    }
+    to {
+        transform: rotate(360deg);/*360度结束旋转*/
+    }
+}

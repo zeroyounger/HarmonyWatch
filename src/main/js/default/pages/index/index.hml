@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="container2">
+        <picker-view class="pv1" range="{{picker1range}}" selected="2" onchange="pvChange1"/>
+        <text class="text">
+            分
+        </text>
+        <image src="../image/hm.png" class="img"></image>
+        <!--下面这样的路径是不可以的，不知道为什么-->
+        <!--    <image src="/image/hm.png" class="img"></image>  -->
+        <picker-view class="pv2" range="{{pikcer2range}}" selected="1" onchange="pvChange2"/>
+    </div>
+    <input type="button" class="btn" value="点击开始" onclick="clickAction"></input>
+</div>

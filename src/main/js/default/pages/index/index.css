@@ -1,0 +1,46 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 38px;/*运动手表的font-size只有30px、38px*/
+    background-color: #000000;  /*背景颜色*/
+    border-color: #000000;     /*边框颜色*/
+}
+
+.img {
+    width: 208px;
+    height: 208px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container2 {
+    flex-direction: row;  /*水平铺排*/
+    justify-content: center;  /*用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+    align-items: center;  /* 属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。*/
+    margin-top: 50px;
+    width: 450px;
+    height: 250px;
+}
+
+.pv1 {
+    width: 30px;
+    height: 250px;
+}
+
+.pv2 {
+    width: 80px;
+    height: 250px;
+}
+.text {
+    text-align: center;
+    width: 50px;
+    height: 36px;
+}

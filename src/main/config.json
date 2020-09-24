@@ -1,0 +1,44 @@
+{
+  "app": {
+    "bundleName": "com.drafire.watch",
+    "vendor": "drafire",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "watch",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/pratice/pratice",
+          "pages/countDown/countDown",
+          "pages/test/test"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}
